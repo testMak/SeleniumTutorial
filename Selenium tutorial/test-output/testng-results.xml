@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Suite Ma première suite de test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test Mon premier test Edge]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test Mon premier test Chrome]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestNG.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestNG.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestNG.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestNG.f]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Suite Ma première suite de test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test Mon premier test Edge]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test Mon premier test Chrome]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestNG.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestNG.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestNG.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestNG.f]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestNG.f]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in ExempleTNG.TestNG]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullnm.makroum@gmail.com,JavaJ2ee@@,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestNG.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestNG.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestNG.f]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in ExempleTNG.TestNG]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullnm.makroum@gmail.com,JavaJ2ee@@,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestNG.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestNG.afterMethod]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-06T14:39:17 WEST" name="Ma première suite de test" finished-at="2024-02-06T14:39:32 WEST" duration-ms="14962">
+    <groups>
+    </groups>
+    <test started-at="2024-02-06T14:39:17 WEST" name="Mon premier test Chrome" finished-at="2024-02-06T14:39:29 WEST" duration-ms="12126">
+      <class name="ExempleTNG.TestNG">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExempleTNG.TestNG@618b19ad]" started-at="2024-02-06T14:39:17 WEST" name="beforeMethod" finished-at="2024-02-06T14:39:22 WEST" duration-ms="4491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestNG.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:ExempleTNG.TestNG@618b19ad]" started-at="2024-02-06T14:39:22 WEST" name="f" data-provider="data1" finished-at="2024-02-06T14:39:29 WEST" duration-ms="7350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nm.makroum@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JavaJ2ee@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : TestNG.f]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : TestNG.f]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in ExempleTNG.TestNG]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullnm.makroum@gmail.com,JavaJ2ee@@,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : TestNG.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ExempleTNG.TestNG@618b19ad]" started-at="2024-02-06T14:39:29 WEST" name="afterMethod" finished-at="2024-02-06T14:39:29 WEST" duration-ms="184" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestNG.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ExempleTNG.TestNG -->
+    </test> <!-- Mon premier test Chrome -->
+    <test started-at="2024-02-06T14:39:17 WEST" name="Mon premier test Edge" finished-at="2024-02-06T14:39:32 WEST" duration-ms="14962">
+      <class name="ExempleTNG.TestNG">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExempleTNG.TestNG@61322f9d]" started-at="2024-02-06T14:39:17 WEST" name="beforeMethod" finished-at="2024-02-06T14:39:25 WEST" duration-ms="7995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestNG.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:ExempleTNG.TestNG@61322f9d]" started-at="2024-02-06T14:39:25 WEST" name="f" data-provider="data1" finished-at="2024-02-06T14:39:32 WEST" duration-ms="6658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nm.makroum@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JavaJ2ee@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : TestNG.f]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : TestNG.f]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in ExempleTNG.TestNG]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullnm.makroum@gmail.com,JavaJ2ee@@,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : TestNG.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ExempleTNG.TestNG@61322f9d]" started-at="2024-02-06T14:39:32 WEST" name="afterMethod" finished-at="2024-02-06T14:39:32 WEST" duration-ms="230" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestNG.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ExempleTNG.TestNG -->
+    </test> <!-- Mon premier test Edge -->
+  </suite> <!-- Ma première suite de test -->
+</testng-results>

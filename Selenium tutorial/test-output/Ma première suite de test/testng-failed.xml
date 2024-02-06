@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ma première suite de test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Mon premier test Edge(failed)">
+    <parameter name="browser" value="egde"/>
+    <classes>
+      <class name="ExempleTNG.TestNG">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- ExempleTNG.TestNG -->
+    </classes>
+  </test> <!-- Mon premier test Edge(failed) -->
+</suite> <!-- Failed suite [Ma première suite de test] -->

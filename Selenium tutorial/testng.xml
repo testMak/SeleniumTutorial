@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Ma première suite de test" parallel="tests">
+	<test name="Mon premier test Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="ExempleTNG.TestNG"/>
+		</classes>
+	</test>
+	<test name="Mon premier test Edge">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="ExempleTNG.TestNG"/>
+		</classes>
+	</test>
+</suite>
